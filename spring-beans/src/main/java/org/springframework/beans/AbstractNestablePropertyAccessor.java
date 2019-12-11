@@ -198,7 +198,7 @@ public abstract class AbstractNestablePropertyAccessor extends AbstractPropertyA
 		this.nestedPropertyAccessors = null;
 		this.typeConverterDelegate = new TypeConverterDelegate(this, this.wrappedObject);
 	}
-
+//
 	public final Object getWrappedInstance() {
 		Assert.state(this.wrappedObject != null, "No wrapped object");
 		return this.wrappedObject;
